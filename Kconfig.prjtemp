@@ -1,0 +1,6 @@
+menu "Project Template"
+
+rsource "subsys/Kconfig"
+rsource "drivers/Kconfig"
+
+endmenu
