@@ -4,5 +4,6 @@ find_package(Zephyr REQUIRED HINTS $ENV{ZEPHYR_BASE})
 project(app_template)
 
 target_sources(app PRIVATE
-	src/main.c)
+	src/main.c
+	src/other.c)
 target_include_directories(app PRIVATE include)
