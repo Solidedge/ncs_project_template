@@ -1,0 +1,4 @@
+manifest:
+# West-related configuration for the ncs_project_template repository.
+  self:
+    path: my_projects/ncs_project_template
