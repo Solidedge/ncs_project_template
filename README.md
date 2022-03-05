@@ -5,9 +5,10 @@ This is my template for all my NCS projects, it's intended to be combined with [
 For initial setup go to [my NCS setup](https://github.com/Solidedge/ncs_setup). Keep the template folder, which is a clone of this repository anyway, and create a copy of it for your project.
 
 ## NCS Directory
+```
 ncs
 ├── .west
-│   ├── config
+│   └── config
 ├── bootloader/...
 ├── mbedtls/...
 ├── modules/...
@@ -41,3 +42,4 @@ ncs
 ├── zephyr/...
 ├── .gitignore
 └── README.md
+```
